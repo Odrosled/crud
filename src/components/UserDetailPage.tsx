@@ -28,7 +28,7 @@ const UserDetailPage = () => {
       <div className="mb-10">{data.password}</div>
       <div className="flex gap-5">
         <EditUserForm id={params.id} username={data.username} email={data.email} password={data.password} />
-        <DeleteUserModal />
+        <DeleteUserModal id={params.id} />
       </div>
     </div>
   );

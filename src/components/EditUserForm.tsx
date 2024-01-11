@@ -44,7 +44,7 @@ const NewUserForm = ({ id, username, password, email }: UserProps) => {
     setOpen(false);
   };
 
-  // REACT QUERY EDIT USER DATA
+  // REACT QUERY MUTATION TO EDIT USER DATA
 
   const queryClient = useQueryClient();
 
