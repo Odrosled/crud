@@ -1,6 +1,6 @@
-import { Dialog, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from "@radix-ui/react-dialog";
+import { DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import Button from "./Button";
-import { DialogHeader } from "./ui/dialog";
 import { Toaster } from "./ui/toaster";
 import { useState } from "react";
 import axios from "axios";
